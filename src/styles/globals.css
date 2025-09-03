@@ -5,6 +5,12 @@
 @tailwind utilities;
 
 :root {
+  /* Default to light mode colors */
+  color-scheme: light;
+}
+
+.dark {
+  /* Set dark mode colors when .dark class is present */
   color-scheme: dark;
 }
 
@@ -13,5 +19,11 @@ html, body, #root {
 }
 
 body {
-  @apply text-neutral-200 antialiased font-inter bg-neutral-950;
+  /* Light theme defaults */
+  @apply text-neutral-800 antialiased font-inter bg-white;
+}
+
+.dark body {
+  /* Dark theme overrides */
+  @apply text-neutral-200 bg-neutral-950;
 }
