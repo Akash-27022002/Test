@@ -1,4 +1,3 @@
-import React from 'react';
 import { Mail, Linkedin, Github, Menu } from 'lucide-react';
 
 export default function Navbar({ data, theme, setTheme }) {

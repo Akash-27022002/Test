@@ -1,4 +1,3 @@
-import React from 'react';
 import { Send, Download, Phone, Mail, ShieldCheck } from 'lucide-react';
 import { motion } from 'framer-motion';
 

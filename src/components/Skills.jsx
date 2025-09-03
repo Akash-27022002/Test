@@ -1,4 +1,3 @@
-import React from 'react';
 import { Code, Boxes, Wrench, Database, Cpu, Ship } from 'lucide-react';
 
 const SectionCard = ({ title, icon: Icon, items }) => (

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Sparkles, Users, Beaker, GitCommit, Box as Container, Shield, KeyRound, Trophy, Activity, Lock, GitBranch } from 'lucide-react';
 
 export default function Experience({ data }) {
