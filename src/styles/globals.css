@@ -19,11 +19,11 @@ html, body, #root {
 }
 
 body {
-  /* Light theme defaults */
+  /* Light theme defaults (e.g., white background) */
   @apply text-neutral-800 antialiased font-inter bg-white;
 }
 
 .dark body {
-  /* Dark theme overrides */
+  /* Dark theme overrides (e.g., dark background) */
   @apply text-neutral-200 bg-neutral-950;
 }
