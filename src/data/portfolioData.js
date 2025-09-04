@@ -3,12 +3,12 @@ export const portfolio = {
   initials: "AS",
   title: "Backend Developer",
   status: "Open to opportunities",
-  email: "your.email@example.com",
+  email: "akahsachanboss@gmail.com",
   phone: "+91 7007796127",
   location: "India (IST)",
-  linkedin: "https://www.linkedin.com/in/your-link",
-  github: "https://github.com/your-handle",
-  resumeUrl: "https://example.com/resume.pdf",
+  linkedin: "https://linkedin.com/in/akash-sachan-646515214/",
+  github: "https://github.com/devwithakash",
+  resumeUrl: "https://drive.google.com/file/d/1z_wLJriKnfUoZ-EwifpxqWmDwd9xc8lB/view?usp=sharing",
 
   about:
     "I design and build scalable backend systems with clean architecture, strong security, and operational excellence. My experience spans microservices, real-time communication with WebSockets, and data-driven APIs. I care about reliability, testing, and performance from day one.",
@@ -108,10 +108,10 @@ export const portfolio = {
   education: [
     {
       degree: "M.Tech, Computer Science & Information Security",
-      place: "National Institue Of Karnatka,",
-      period: "2019 – 2023",
-      meta: "CGPA: 8.3",
-      icon: "Award"
+      place: "National Institute of Technology, Karnataka, Surathkal",
+      period: "2025 – present",
+      // meta: "CGPA: 8.3",
+      icon: "Appearing"
     },
     {
       degree: "B.Tech, Information Technology",
