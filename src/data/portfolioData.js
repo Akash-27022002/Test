@@ -107,6 +107,13 @@ export const portfolio = {
 
   education: [
     {
+      degree: "M.Tech, Computer Science & Information Security",
+      place: "National Institue Of Karnatka,",
+      period: "2019 – 2023",
+      meta: "CGPA: 8.3",
+      icon: "Award"
+    },
+    {
       degree: "B.Tech, Information Technology",
       place: "Rajkiya Engineering College, Banda, Uttar Pradesh",
       period: "2019 – 2023",
