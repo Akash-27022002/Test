@@ -28,6 +28,22 @@ export default function App() {
     localStorage.setItem('theme', theme);
   }, [theme]);
 
+  useEffect(() => {
+  // replace with your API URL
+  fetch("https://6jzhdlvk-3001.inc1.devtunnels.ms/")
+    .then((res) => {
+      if (!res.ok) throw new Error("Network response was not ok");
+      return res.json(); // or res.text() depending on API
+    })
+    .then((data) => {
+      console.log("API Response:", data);
+    })
+    .catch((err) => {
+      console.error("API Error:", err);
+    });
+}, []);
+
+
   return (
     <div className="relative">
       {/* Background accents */}
