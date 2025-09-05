@@ -22,5 +22,6 @@
   "theme_color": "#12191C",
   "background_color": "#12191C",
   "display": "standalone",
-  "start_url": "/"
+  "start_url": "/akashverse/",
+  "scope": "/akashverse/"
 }
